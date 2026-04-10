@@ -1,6 +1,6 @@
 const http = require("http"); // Import the built-in HTTP module in Node.js
 
-const name = "Shreyash"
+const name = "Vishal"
 http.createServer((req, res) => {
     // 'req' = request object (contains details about the client request: URL, method, headers, etc.)
     // 'res' = response object (used to send back data to the client/browser)
@@ -15,8 +15,8 @@ http.createServer((req, res) => {
     // "Content-Type": "text/html" means the content is HTML, so browser renders it properly
 
     // Write (send) some HTML content to the response body
-    res.write("<h1>Hello i am Shreyash</h1>");
-    // Browser will display: Hello i am Shreyash (big heading)
+    res.write("<h1>Hello i am Vishal</h1>");
+    // Browser will display: Hello i am Vishal (big heading)
 
     // End the response (very important!)
     // Without res.end(), the browser will keep waiting for more data
